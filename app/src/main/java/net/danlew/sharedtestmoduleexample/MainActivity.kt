@@ -12,6 +12,7 @@ class MainActivity : AppCompatActivity() {
         val binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.text.text = RealMessenger.createMessage()
+        binding.tvMessage.text = RealMessenger.createMessage()
+
     }
 }
